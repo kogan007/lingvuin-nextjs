@@ -1,0 +1,86 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "checkJs": false,
+    "noImplicitThis": true,
+    "noUnusedParameters": true,
+    "traceResolution": false,
+    "allowUnreachableCode": false,
+    "outDir": "dist",
+    "declaration": false,
+    "importHelpers": true,
+    "inlineSources": true,
+    "newLine": "lf",
+    "noEmitHelpers": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "noEmit": false,
+    "useUnknownInCatchVariables": false,
+    "lib": ["ESNext", "dom", "dom.iterable", "ES2020.BigInt"],
+    "strict": true,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "alwaysStrict": true,
+    "allowJs": true,
+    "isolatedModules": true,
+    "noUnusedLocals": true,
+    "noImplicitOverride": false,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "useDefineForClassFields": true,
+    "jsx": "preserve",
+    "skipLibCheck": true,
+    "typeRoots": ["./node_modules/@types"],
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": ["./src/components/*"],
+      "@/pages/*": ["./src/pages/*"],
+      "@/app/*": ["./src/app/*"],
+      "@/lib/*": ["./src/lib/*"],
+      "@/styles/*": ["./src/styles/*"],
+      "structures/*": ["./src/structures/*"],
+      "handlers/*": ["./src/handlers/*"],
+      "models/*": ["./src/models/*"],
+      "types/*": ["./src/interfaces/*"],
+      "utils/*": ["./src/utils/*"],
+      "@components/*": ["./src/dashboard/components/*"],
+      "@commands/*": ["./src/commands/*"],
+      "@scripts/*": ["./src/scripts/*"],
+      "@locales/*": ["./src/locales/*"],
+      "@config/*": ["./src/config/*"]
+    },
+    "incremental": true,
+    "tsBuildInfoFile": ".tsbuildinfo",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    ".next",
+    ".vscode",
+    ".github",
+    "**/*.md",
+    "public/*.js"
+  ],
+  "include": [
+    "typings/*.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "./*.js",
+    ".next/types/**/*.ts",
+    "src/postcss.config.js"
+  ],
+  "ts-node": {
+    "swc": true,
+    "require": ["tsconfig-paths/register"]
+  }
+}

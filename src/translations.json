@@ -1,0 +1,92 @@
+{
+  "en-US": {
+    "shop": {
+      "description": "Welcome to the Lingvuin shop. Here you can use your Lingvuin coins to buy different icons, colors, and more. Earn coins by being active in chat and claiming your dailies.",
+      "balance": "My Balance",
+      "icons": "Icons for sale",
+      "colors": "Colors for sale",
+      "coins": "Buy Coins",
+      "purchase": "Purchase",
+      "field1": "Welcome to the Lingvuin Shop. \nHere you can use your Lingvuin coins \nto buy different icons, colors, and more.",
+      "field2": "Earn Lingvuin coins by \nbeing active in chat and \nclaiming your dailies."
+    },
+    "icons": {
+      "title": "Items available for purchase"
+    },
+    "daily": {
+      "claimed": "{{user}}, you claimed your {{amount}} Lingvuin coins",
+      "cooldown": "{{user}}, you can claim your daily reward in {{cooldown}}"
+    },
+    "global": {
+      "return": "Go back",
+      "lootboxReward": "Congratulations {{user}}, you win ${{amount}}",
+      "equip": "Equip item",
+      "itemEquipped": "Item equipped"
+    },
+    "self-mute": {
+      "tooLong": "This is way too long!",
+      "hierarchy": "The hierarchy of man exceeds mine!",
+      "request": "Request by"
+    }
+  },
+  "ru": {
+    "shop": {
+      "description": "Добро пожаловать в магазин Лингвина. Тут вы можете использовать \nсвои Лингвин монеты, чтобы покупать различные иконки, \nцвета, и больше. Зарабатывайте монеты проявляя актив в чате, \nи забирая ежедневную награду",
+      "balance": "Мой баланс",
+      "icons": "Иконки за монеты",
+      "colors": "Цвета за монеты",
+      "coins": "Купить монеты",
+      "purchase": "Купить",
+      "field1": "Добро пожаловать в магазин Лингвина. \nТут вы можете использовать свои \nЛингвин монеты, чтобы покупать \nразличные иконки, цвета, и больше.",
+      "field2": "Зарабатывайте монеты \nпроявляя актив в чате, \nи забирая ежедневную \nнаграду"
+    },
+    "icons": {
+      "title": "Предметы доступные для покупки"
+    },
+    "daily": {
+      "claimed": "{{user}}, вы получили {{amount}} монет Лингвина",
+      "cooldown": "{{user}}, вы сможете получить свою ежедневную награду через {{cooldown}}"
+    },
+    "global": {
+      "return": "Вернуться",
+      "lootboxReward": "Поздравляю {{user}}, вы выиграли ${{amount}}",
+      "equip": "Применить предмет",
+      "itemEquipped": "Предмет применён"
+    },
+    "self-mute": {
+      "tooLong": "Это слишком долго!",
+      "hierarchy": "Вы находитесь выше меня!",
+      "request": "По запросу"
+    }
+  },
+  "uk": {
+    "shop": {
+      "description": "Ласкаво просимо в магазин Лінгвіна. Тут ви можете використовувати \nсвої Лінгвін монети, щоб купувати різні іконки, кольори, \nта більше. Заробляйте монети проявляючи актив в чаті, і забираючи щодневну нагороду.",
+      "balance": "Мій баланс",
+      "icons": "Іконки за монети",
+      "colors": "Кольори за монети",
+      "coins": "Купити монети",
+      "purchase": "Купити",
+      "field1": "Ласкаво просимо в магазин Лінгвіна. \nТут ви можете використовувати свої \nЛінгвін монети, щоб купувати \nрізні іконки, кольори, та більше.",
+      "field2": "Заробляйте монети \nпроявляючи актив в чаті, \nі забираючи щодневну \nнагороду."
+    },
+    "daily": {
+      "claimed": "{{user}}, ви отримали {{amount}} монет Лінгвіна",
+      "cooldown": "{{user}}, ви зможете отримати свою щодневну нагороду через {{cooldown}}"
+    },
+    "icons": {
+      "title": "Предмети доступні для покупки"
+    },
+    "global": {
+      "return": "Повернутись",
+      "lootboxReward": "Вітаю {{user}}, ви виграли ${{amount}}",
+      "equip": "Застосувати предмет",
+      "itemEquipped": "Предмет застосований"
+    },
+    "self-mute": {
+      "tooLong": "Це дуже довго!",
+      "hierarchy": "Ваша ірерхія перевищує мою!",
+      "request": "По запиту"
+    }
+  }
+}
